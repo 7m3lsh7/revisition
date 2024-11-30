@@ -1,0 +1,41 @@
+:root{
+--white : #fff;
+}
+.Apple-icone svg 
+{
+color: var(--white);
+} 
+.search-icone svg
+{
+    color: var(--white);   
+}
+.navbar .nav .nav-item  a {
+    
+    height: 40px;
+    transition: height 1s 0.5s;
+    
+    
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.882) !important ;
+}
+.navbar .nav .nav-item  a:hover{
+    height: 400px;
+    position:relative;
+}
+.macbook
+{
+    width: auto;
+    background-color: black;
+    height: 500px;
+}
+.macmini,
+.Watch,
+.ipadmini,
+.imac
+{
+    width: auto;
+    background-color: #f5f5f7;
+    height: 500px;
+}
+
